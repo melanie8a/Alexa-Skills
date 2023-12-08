@@ -1,0 +1,200 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lenguajes inventados",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "Nombre_Lenguaje",
+              "type": "NOMBRES_LENGUAJES"
+            },
+            {
+              "name": "Creacion",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER"
+            },
+            {
+              "name": "Inventor",
+              "type": "PERSONAJES_P"
+            }
+          ],
+          "samples": [
+            "{Creacion}",
+            "{Inventor}",
+            "háblame de {Nombre_Lenguaje}",
+            "{Nombre_Lenguaje}"
+          ]
+        },
+        {
+          "name": "QuizIntent",
+          "slots": [],
+          "samples": [
+            "comenzar cuestionario",
+            "pregúntame",
+            "quiero jugar",
+            "comenzar preguntas",
+            "comenzar juego"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "basico"
+              }
+            },
+            {
+              "name": {
+                "value": "paiton"
+              }
+            },
+            {
+              "name": {
+                "value": "php"
+              }
+            },
+            {
+              "name": {
+                "value": "java"
+              }
+            },
+            {
+              "name": {
+                "value": "pe ache pe"
+              }
+            },
+            {
+              "name": {
+                "value": "ruby"
+              }
+            },
+            {
+              "name": {
+                "value": "pascal"
+              }
+            },
+            {
+              "name": {
+                "value": "basic"
+              }
+            },
+            {
+              "name": {
+                "value": "cobol"
+              }
+            },
+            {
+              "name": {
+                "value": "fortran"
+              }
+            },
+            {
+              "name": {
+                "value": "c++"
+              }
+            },
+            {
+              "name": {
+                "value": "c más más"
+              }
+            },
+            {
+              "name": {
+                "value": "c"
+              }
+            },
+            {
+              "name": {
+                "value": "python"
+              }
+            }
+          ],
+          "name": "NOMBRES_LENGUAJES"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "James Gosling"
+              }
+            },
+            {
+              "name": {
+                "value": "Rasmus Lerdoff"
+              }
+            },
+            {
+              "name": {
+                "value": "Yukihiro Matsumoto"
+              }
+            },
+            {
+              "name": {
+                "value": "Blause Pascal"
+              }
+            },
+            {
+              "name": {
+                "value": "En Dartmounth College"
+              }
+            },
+            {
+              "name": {
+                "value": "Grace Murray Hopper"
+              }
+            },
+            {
+              "name": {
+                "value": "John Backus"
+              }
+            },
+            {
+              "name": {
+                "value": "Bjarne Stroustrup"
+              }
+            },
+            {
+              "name": {
+                "value": "Dennis Ritchie"
+              }
+            },
+            {
+              "name": {
+                "value": "Guido Van"
+              }
+            }
+          ],
+          "name": "PERSONAJES_P"
+        }
+      ]
+    }
+  },
+  "version": "7"
+}
